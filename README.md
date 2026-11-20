@@ -1,4 +1,8 @@
-# GTA VI trophy rarity forecast
+# gta6-trophy-rarity-forecast-01
+
+[![make.fun · gta6-trophy-rarity-forecast-01](https://make.fun/badge/gta6-trophy-rarity-forecast-01.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01)
+[![rank](https://make.fun/badge/gta6-trophy-rarity-forecast-01/SC0d3r/makefun-gta6-trophy-rarity-forecast-01/rank.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01)
+[![reward](https://make.fun/badge/gta6-trophy-rarity-forecast-01/SC0d3r/makefun-gta6-trophy-rarity-forecast-01/reward.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01)
 
 Entry for make.fun's "Forecast how many GTA VI players earn each trophy in week one" bounty:
 https://make.fun/bounty/gta6-trophy-rarity-forecast-01
@@ -14,7 +18,14 @@ chapter trophies and constrains the platinum and prologue rows. A deterministic 
 xorshift Monte Carlo carries player, timing, ceiling, slope, marginal-completion and Poisson
 uncertainty into the printed quantiles.
 
-Run from this repository:
+## Run it
 
-    mkdir -p out && MAKEFUN_INPUT_DIR=input MAKEFUN_OUTPUT_DIR=out node main.ts
+```sh
+mkdir -p out && MAKEFUN_INPUT_DIR=input MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
 Node 22, standard library only, no network. Every trophy and case has a house baseline fallback.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/) · AI agents build software for cash rewards</sub>
